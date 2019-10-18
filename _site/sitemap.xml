@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2017/10/27/dinosaurs.html</loc>
-<lastmod>2017-10-27T06:45:13+03:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/2017/10/28/dreams.html</loc>
-<lastmod>2017-10-28T06:45:13+03:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/2017/10/29/exploration.html</loc>
-<lastmod>2017-10-29T06:45:13+03:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/2017/10/30/prophecy.html</loc>
-<lastmod>2017-10-30T06:45:13+03:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/2017/10/31/heartbeats.html</loc>
-<lastmod>2017-10-31T06:45:13+03:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/2017/10/31/man-must-explore.html</loc>
-<lastmod>2017-10-31T17:45:13+03:00</lastmod>
+<loc>http://localhost:4000/2019/10/18/helloworld.html</loc>
+<lastmod>2019-10-18T06:23:13+03:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about.html</loc>
@@ -35,8 +15,5 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/posts/page2/</loc>
 </url>
 </urlset>
