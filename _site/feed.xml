@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-19T00:46:00+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Burak Tahtacı</title><subtitle>Yet Another R&amp;D Engineer</subtitle><author><name>Burak Tahtacı</name></author><entry><title type="html">Hello Myself</title><link href="http://localhost:4000/2019/10/18/helloworld.html" rel="alternate" type="text/html" title="Hello Myself" /><published>2019-10-18T06:23:13+03:00</published><updated>2019-10-18T06:23:13+03:00</updated><id>http://localhost:4000/2019/10/18/helloworld</id><content type="html" xml:base="http://localhost:4000/2019/10/18/helloworld.html">&lt;h2 class=&quot;section-heading&quot;&gt;Hello Myself from World&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-19T16:47:25+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Burak Tahtacı</title><subtitle>Yet Another R&amp;D Engineer</subtitle><author><name>Burak Tahtacı</name></author><entry><title type="html">Hello Myself</title><link href="http://localhost:4000/2019/10/18/helloworld.html" rel="alternate" type="text/html" title="Hello Myself" /><published>2019-10-18T06:23:13+03:00</published><updated>2019-10-18T06:23:13+03:00</updated><id>http://localhost:4000/2019/10/18/helloworld</id><content type="html" xml:base="http://localhost:4000/2019/10/18/helloworld.html">&lt;h2 class=&quot;section-heading&quot;&gt;Hello Myself from World&lt;/h2&gt;
 
 &lt;p&gt;
     I don't the number of blogs that are established by me. And i wrote lots of time hello world posts.
@@ -22,4 +22,61 @@
     &lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
     &lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;
     &lt;img class=&quot;img-fluid&quot; src=&quot;https://source.unsplash.com/Mn9Fa_wQH-M/800x450&quot; alt=&quot;Demo Image&quot;&gt;
---&gt;</content><author><name>Burak Tahtacı</name></author><summary type="html">Hello Myself from World</summary></entry></feed>
+--&gt;</content><author><name>Burak Tahtacı</name></author><summary type="html">Hello Myself from World</summary></entry><entry><title type="html">Why Random Forest is Very Accurate</title><link href="http://localhost:4000/2019/10/18/random_forest.html" rel="alternate" type="text/html" title="Why Random Forest is Very Accurate" /><published>2019-10-18T06:23:13+03:00</published><updated>2019-10-18T06:23:13+03:00</updated><id>http://localhost:4000/2019/10/18/random_forest</id><content type="html" xml:base="http://localhost:4000/2019/10/18/random_forest.html">&lt;h2 class=&quot;section-heading&quot;&gt;Decision Trees&lt;/h2&gt;
+
+&lt;p&gt;
+    Classification algorithms are essential part of machine learning applications. These algorithms known as classifiers.
+    Lots of different classification algorithms exists in literature, the well known one is Decision Trees. Decision Trees 
+    are decision support systems that simply tries to find decision rules to classify instances. Rules are computed within 
+    entropy measure. If entropy of a feature is more than others than we add this feature to the tree as a decision rule.
+&lt;/p&gt;
+
+&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/random_forest_01.jpg&quot; alt=&quot;Decision Tree&quot;&gt;
+
+&lt;p&gt;
+    Decision trees are not very accurate classifiers. Because it's decision boundaries are strict. In real world problems, we need
+    more complex (sometimes non-linear) decision boundaries. To make this non-linear we can use different classification
+    algorithms such as Artificial Neural Networks (Perceptrons). Or in a short way, we can use a different approach to make our 
+    classification results better. This method called &quot;ensembling&quot;. Essential idea behind the ensembling is, using different classifiers and
+    combine their results. In real life we can assume that, generally a group of people can make better decisions than a single
+    individual.
+&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Random Forests&lt;/h2&gt;
+
+&lt;p&gt;
+    As we can infere from name, Random Forest method includes lots of trees. For example, we have a dataset with 5000 samples and 3 classes(C1,C2,C3). In classical 
+    decision tree algorthm take all the samples and generate just one tree. But in random forests, we divide the dataset into n parts and implement
+    for each subset of instances and train n decision trees. In evaluation phase of model, test instance classified by all the trees in forest.
+    At the and, all the results combined.
+
+    For example results of trees is something like this.&lt;/br&gt;
+        &lt;span class=&quot;caption text-muted&quot;&gt;
+            Tree#0 -&gt; Predicted: C1&lt;/br&gt;
+            Tree#1 -&gt; Predicted: C1&lt;/br&gt;
+            Tree#2 -&gt; Predicted: C1&lt;/br&gt;
+            Tree#3 -&gt; Predicted: C2&lt;/br&gt;
+            Tree#4 -&gt; Predicted: C1&lt;/br&gt;
+            Tree#5 -&gt; Predicted: C1&lt;/br&gt;
+            Tree#6 -&gt; Predicted: C3&lt;/br&gt;
+            Tree#7 -&gt; Predicted: C2&lt;/br&gt;
+            Tree#8 -&gt; Predicted: C1&lt;/br&gt;
+            Tree#9 -&gt; Predicted: C2&lt;/br&gt;
+        &lt;/span&gt;
+
+    It's easy to say that our instance is a member of C1, because most of the trees says that.
+&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;
+    If you are working on a classification task, using different classifiers and combining them improves your 
+    accuracy. For further information about this topic you can google this terms &lt;span class=&quot;caption text-muted&quot;&gt;&lt;b&gt;Ensembling, Ensemble Learning, Bagging, Boosting, Random Forest&lt;/b&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;!-- SOME USEFUL CODE BLOCKS
+    &lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
+    &lt;blockquote class=&quot;blockquote&quot;&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
+    &lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
+    &lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;
+    &lt;img class=&quot;img-fluid&quot; src=&quot;https://source.unsplash.com/Mn9Fa_wQH-M/800x450&quot; alt=&quot;Demo Image&quot;&gt;
+--&gt;</content><author><name>Burak Tahtacı</name></author><summary type="html">Decision Trees</summary></entry></feed>

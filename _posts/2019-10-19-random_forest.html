@@ -1,0 +1,65 @@
+---
+layout: post
+title: "Why Random Forest is Very Accurate"
+subtitle: "Power of ensembling multiple classifiers."
+date: 2019-10-18 00:23:13 -0300
+background: '/img/posts/06.jpg'
+---
+<h2 class="section-heading">Decision Trees</h2>
+
+<p>
+    Classification algorithms are essential part of machine learning applications. These algorithms known as classifiers.
+    Lots of different classification algorithms exists in literature, the well known one is Decision Trees. Decision Trees 
+    are decision support systems that simply tries to find decision rules to classify instances. Rules are computed within 
+    entropy measure. If entropy of a feature is more than others than we add this feature to the tree as a decision rule.
+</p>
+
+<img class="img-fluid" src="/img/posts/random_forest_01.jpg" alt="Decision Tree">
+
+<p>
+    Decision trees are not very accurate classifiers. Because it's decision boundaries are strict. In real world problems, we need
+    more complex (sometimes non-linear) decision boundaries. To make this non-linear we can use different classification
+    algorithms such as Artificial Neural Networks (Perceptrons). Or in a short way, we can use a different approach to make our 
+    classification results better. This method called "ensembling". Essential idea behind the ensembling is, using different classifiers and
+    combine their results. In real life we can assume that, generally a group of people can make better decisions than a single
+    individual.
+</p>
+
+<h2 class="section-heading">Random Forests</h2>
+
+<p>
+    As we can infere from name, Random Forest method includes lots of trees. For example, we have a dataset with 5000 samples and 3 classes(C1,C2,C3). In classical 
+    decision tree algorthm take all the samples and generate just one tree. But in random forests, we divide the dataset into n parts and implement
+    for each subset of instances and train n decision trees. In evaluation phase of model, test instance classified by all the trees in forest.
+    At the and, all the results combined.
+
+    For example results of trees is something like this.</br>
+        <span class="caption text-muted">
+            Tree#0 -> Predicted: C1</br>
+            Tree#1 -> Predicted: C1</br>
+            Tree#2 -> Predicted: C1</br>
+            Tree#3 -> Predicted: C2</br>
+            Tree#4 -> Predicted: C1</br>
+            Tree#5 -> Predicted: C1</br>
+            Tree#6 -> Predicted: C3</br>
+            Tree#7 -> Predicted: C2</br>
+            Tree#8 -> Predicted: C1</br>
+            Tree#9 -> Predicted: C2</br>
+        </span>
+
+    It's easy to say that our instance is a member of C1, because most of the trees says that.
+</p>
+
+<h2 class="section-heading">Results</h2>
+
+<p>
+    If you are working on a classification task, using different classifiers and combining them improves your 
+    accuracy. For further information about this topic you can google this terms <span class="caption text-muted"><b>Ensembling, Ensemble Learning, Bagging, Boosting, Random Forest</b></span>
+</p>
+<!-- SOME USEFUL CODE BLOCKS
+    <h2 class="section-heading">The Final Frontier</h2>
+    <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+    <h2 class="section-heading">Reaching for the Stars</h2>
+    <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+    <img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
+-->

@@ -8,11 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>
-    Hello Myself - Burak Tahtacı
+    Why Random Forest is Very Accurate - Burak Tahtacı
     
   </title>
 
-  <meta name="description" content="Hello Myself from World">
+  <meta name="description" content="Decision Trees">
 
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/2019/10/18/helloworld.html">
+  <link rel="canonical" href="http://localhost:4000/2019/10/18/random_forest.html">
   <link rel="alternate" type="application/rss+xml" title="Burak Tahtacı" href="/feed.xml">
 
 </head>
@@ -60,22 +60,22 @@
 
   <!-- Page Header -->
 
-<header class="masthead" style="background-image: url('/img/posts/01.jpg')">
+<header class="masthead" style="background-image: url('/img/posts/06.jpg')">
   
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1>Hello Myself</h1>
+            <h1>Why Random Forest is Very Accurate</h1>
             
-            <h2 class="subheading">This is not a Hello World article.</h2>
+            <h2 class="subheading">Power of ensembling multiple classifiers.</h2>
             
             <span class="meta">Posted by
               <a href="#">Burak Tahtacı</a>
               on October 18, 2019 &middot; <span class="reading-time" title="Estimated read time">
   
-   1 min  read </span>
+   3 mins  read </span>
 
             </span>
           </div>
@@ -88,24 +88,57 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
 
-        <h2 class="section-heading">Hello Myself from World</h2>
+        <h2 class="section-heading">Decision Trees</h2>
 
 <p>
-    I don't the number of blogs that are established by me. And i wrote lots of time hello world posts.
-    Again I am writing a new Hello World post, it's not a start of new stuff, It's end of the situation
-    which I am not very lazy.
+    Classification algorithms are essential part of machine learning applications. These algorithms known as classifiers.
+    Lots of different classification algorithms exists in literature, the well known one is Decision Trees. Decision Trees 
+    are decision support systems that simply tries to find decision rules to classify instances. Rules are computed within 
+    entropy measure. If entropy of a feature is more than others than we add this feature to the tree as a decision rule.
 </p>
+
+<img class="img-fluid" src="/img/posts/random_forest_01.jpg" alt="Decision Tree">
 
 <p>
-    For every blog that i started, is for everybody. I was writing for express myself to others. But now
-    I am writing for myself. I write, because I need. So this blog is not for you dear reader. I hope that
-    I will learn lots of things, and i hope you for you too. 
+    Decision trees are not very accurate classifiers. Because it's decision boundaries are strict. In real world problems, we need
+    more complex (sometimes non-linear) decision boundaries. To make this non-linear we can use different classification
+    algorithms such as Artificial Neural Networks (Perceptrons). Or in a short way, we can use a different approach to make our 
+    classification results better. This method called "ensembling". Essential idea behind the ensembling is, using different classifiers and
+    combine their results. In real life we can assume that, generally a group of people can make better decisions than a single
+    individual.
 </p>
+
+<h2 class="section-heading">Random Forests</h2>
 
 <p>
-    Hope, I will write regularly. Do not forget the 2019October18.
+    As we can infere from name, Random Forest method includes lots of trees. For example, we have a dataset with 5000 samples and 3 classes(C1,C2,C3). In classical 
+    decision tree algorthm take all the samples and generate just one tree. But in random forests, we divide the dataset into n parts and implement
+    for each subset of instances and train n decision trees. In evaluation phase of model, test instance classified by all the trees in forest.
+    At the and, all the results combined.
+
+    For example results of trees is something like this.</br>
+        <span class="caption text-muted">
+            Tree#0 -> Predicted: C1</br>
+            Tree#1 -> Predicted: C1</br>
+            Tree#2 -> Predicted: C1</br>
+            Tree#3 -> Predicted: C2</br>
+            Tree#4 -> Predicted: C1</br>
+            Tree#5 -> Predicted: C1</br>
+            Tree#6 -> Predicted: C3</br>
+            Tree#7 -> Predicted: C2</br>
+            Tree#8 -> Predicted: C1</br>
+            Tree#9 -> Predicted: C2</br>
+        </span>
+
+    It's easy to say that our instance is a member of C1, because most of the trees says that.
 </p>
 
+<h2 class="section-heading">Results</h2>
+
+<p>
+    If you are working on a classification task, using different classifiers and combining them improves your 
+    accuracy. For further information about this topic you can google this terms <span class="caption text-muted"><b>Ensembling, Ensemble Learning, Bagging, Boosting, Random Forest</b></span>
+</p>
 <!-- SOME USEFUL CODE BLOCKS
     <h2 class="section-heading">The Final Frontier</h2>
     <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
@@ -119,9 +152,9 @@
         <div class="clearfix">
 
           
+          <a class="btn btn-primary float-left" href="/2019/10/18/helloworld.html" data-toggle="tooltip" data-placement="top" title="Hello Myself">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
           
-          <a class="btn btn-primary float-right" href="/2019/10/18/random_forest.html" data-toggle="tooltip" data-placement="top" title="Why Random Forest is Very Accurate">Next<span class="d-none d-md-inline">
-              Post</span> &rarr;</a>
           
 
         </div>
