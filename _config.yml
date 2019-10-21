@@ -1,6 +1,10 @@
 title:              Burak Tahtacı
 email:              tahtaciburak@gmail.com
+<<<<<<< Updated upstream
 description:        Yet Another R&D Engineer
+=======
+description:        Arge Mühendisi
+>>>>>>> Stashed changes
 author:             Burak Tahtacı
 baseurl:            "/"
 url:                "https://tahtaciburak.github.io"
@@ -12,7 +16,7 @@ facebook_username:  buraktahtaci
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:   UA-68092431-6 # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
