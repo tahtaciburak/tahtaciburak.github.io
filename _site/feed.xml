@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-21T16:23:21+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Burak Tahtacı</title><subtitle>Arge Mühendisi</subtitle><author><name>Start Bootstrap</name></author><entry><title type="html">Hello Myself</title><link href="http://localhost:4000/2019/10/18/helloworld.html" rel="alternate" type="text/html" title="Hello Myself" /><published>2019-10-18T06:23:13+03:00</published><updated>2019-10-18T06:23:13+03:00</updated><id>http://localhost:4000/2019/10/18/helloworld</id><content type="html" xml:base="http://localhost:4000/2019/10/18/helloworld.html">&lt;h2 class=&quot;section-heading&quot;&gt;Hello Myself from World&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-08T01:16:41+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Burak Tahtacı</title><subtitle>Yet Another R&amp;D Engineer</subtitle><author><name>Burak Tahtacı</name></author><entry><title type="html">New Decade, New Development Environment</title><link href="http://localhost:4000/2020/01/07/new-decade-new-dev-environment.html" rel="alternate" type="text/html" title="New Decade, New Development Environment" /><published>2020-01-07T06:23:13+03:00</published><updated>2020-01-07T06:23:13+03:00</updated><id>http://localhost:4000/2020/01/07/new-decade-new-dev-environment</id><content type="html" xml:base="http://localhost:4000/2020/01/07/new-decade-new-dev-environment.html">&lt;h2 class=&quot;section-heading&quot;&gt;New Decade, New Development Environment&lt;/h2&gt;
+
+&lt;p&gt;
+    Last decade, I've met with coding. I had chance to try technologies in a wide spectrum, including Pascal, Delphi, 8086 Assembly, Python, Java, NodeJS, Go...
+    So dozens of different IDE's and text editors were installed on my machine. But now it's time to redesign development environment and make it more simple 
+    and more mobile. Personally, i like working with different operating systems concurrently. Now I am using Linux at work, and MacOS at home. 
+    It's hard to syncronize whole dev setup withing multiple computer. Therefore this post will become a notebook for my environment.
+
+&lt;/p&gt;
+&lt;h2 class=&quot;section-heading&quot;&gt;General Purpose&lt;/h2&gt;
+&lt;p&gt;
+    &lt;b&gt;Vim:&lt;/b&gt; Editing simple text documents and writing basic scripts.&lt;/br&gt;
+    &lt;b&gt;Zsh:&lt;/b&gt; Terminal emulator&lt;/br&gt;
+    &lt;b&gt;GitKraken&lt;/b&gt; Well designed Git GUI&lt;/br&gt;
+    &lt;b&gt;Boostnote:&lt;/b&gt; Taking daily notes and markdown editing&lt;/br&gt;
+    &lt;b&gt;Docker:&lt;/b&gt; Managing and using third party programs without installation &lt;/br&gt;
+
+&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Python&lt;/h2&gt;
+&lt;p&gt;
+    &lt;b&gt;Version:&lt;/b&gt; 3.6+ &lt;/br&gt;
+    &lt;b&gt;PyCharm:&lt;/b&gt; Python IDE &lt;/br&gt;
+    &lt;b&gt;Pip:&lt;/b&gt; Dependency manager&lt;/br&gt;
+
+&lt;/p&gt;
+
+&lt;!-- SOME USEFUL CODE BLOCKS
+    &lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
+    &lt;blockquote class=&quot;blockquote&quot;&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
+    &lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
+    &lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;
+    &lt;img class=&quot;img-fluid&quot; src=&quot;https://source.unsplash.com/Mn9Fa_wQH-M/800x450&quot; alt=&quot;Demo Image&quot;&gt;
+--&gt;</content><author><name>Burak Tahtacı</name></author><summary type="html">New Decade, New Development Environment</summary></entry><entry><title type="html">Hello Myself</title><link href="http://localhost:4000/2019/10/18/helloworld.html" rel="alternate" type="text/html" title="Hello Myself" /><published>2019-10-18T06:23:13+03:00</published><updated>2019-10-18T06:23:13+03:00</updated><id>http://localhost:4000/2019/10/18/helloworld</id><content type="html" xml:base="http://localhost:4000/2019/10/18/helloworld.html">&lt;h2 class=&quot;section-heading&quot;&gt;Hello Myself from World&lt;/h2&gt;
 
 &lt;p&gt;
     I don't the number of blogs that are established by me. And i wrote lots of time hello world posts.
@@ -22,7 +55,7 @@
     &lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
     &lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;
     &lt;img class=&quot;img-fluid&quot; src=&quot;https://source.unsplash.com/Mn9Fa_wQH-M/800x450&quot; alt=&quot;Demo Image&quot;&gt;
---&gt;</content><author><name>Start Bootstrap</name></author><summary type="html">Hello Myself from World</summary></entry><entry><title type="html">Why Random Forest is Very Accurate</title><link href="http://localhost:4000/2019/10/18/random_forest.html" rel="alternate" type="text/html" title="Why Random Forest is Very Accurate" /><published>2019-10-18T06:23:13+03:00</published><updated>2019-10-18T06:23:13+03:00</updated><id>http://localhost:4000/2019/10/18/random_forest</id><content type="html" xml:base="http://localhost:4000/2019/10/18/random_forest.html">&lt;h2 class=&quot;section-heading&quot;&gt;Decision Trees&lt;/h2&gt;
+--&gt;</content><author><name>Burak Tahtacı</name></author><summary type="html">Hello Myself from World</summary></entry><entry><title type="html">Why Random Forest is Very Accurate</title><link href="http://localhost:4000/2019/10/18/random_forest.html" rel="alternate" type="text/html" title="Why Random Forest is Very Accurate" /><published>2019-10-18T06:23:13+03:00</published><updated>2019-10-18T06:23:13+03:00</updated><id>http://localhost:4000/2019/10/18/random_forest</id><content type="html" xml:base="http://localhost:4000/2019/10/18/random_forest.html">&lt;h2 class=&quot;section-heading&quot;&gt;Decision Trees&lt;/h2&gt;
 
 &lt;p&gt;
     Classification algorithms are essential part of machine learning applications. These algorithms known as classifiers.
@@ -79,4 +112,4 @@
     &lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
     &lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;
     &lt;img class=&quot;img-fluid&quot; src=&quot;https://source.unsplash.com/Mn9Fa_wQH-M/800x450&quot; alt=&quot;Demo Image&quot;&gt;
---&gt;</content><author><name>Start Bootstrap</name></author><summary type="html">Decision Trees</summary></entry></feed>
+--&gt;</content><author><name>Burak Tahtacı</name></author><summary type="html">Decision Trees</summary></entry></feed>
